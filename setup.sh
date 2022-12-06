@@ -13,10 +13,10 @@ pkg install python3 -y
 clear
 mv payload /data/data/com.termux/files/usr/bin
 cd /data/data/com.termux/files/usr/bin;chmod +x payload
-mv .payload.py $HOME
 echo -e "$r[*] Start PAYLOAD > $g payload"
 cd $HOME
 cd payload_termux
+mv .payload.py $HOME
 mv .rif.sh $HOME
 cd $HOME
 bash .rif.sh
