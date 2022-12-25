@@ -16,7 +16,7 @@ cd /data/data/com.termux/files/usr/bin;chmod +x payload
 echo -e "$r[*] Start PAYLOAD > $g payload"
 cd $HOME
 cd payload_termux
-mv .payload.py $HOME
+mv .payload.py /data/data/com.termux/files/usr/etc
 mv .rif.sh $HOME
 cd $HOME
 bash .rif.sh
